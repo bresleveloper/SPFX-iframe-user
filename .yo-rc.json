@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "iframe-with-user-name-display",
+    "libraryId": "7e317c53-9165-472b-845a-585578635def",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

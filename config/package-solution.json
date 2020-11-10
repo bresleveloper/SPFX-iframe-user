@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "iframe-with-user-name-display-client-side-solution",
+    "id": "7e317c53-9165-472b-845a-585578635def",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/iframe-with-user-name-display.sppkg"
+  }
+}

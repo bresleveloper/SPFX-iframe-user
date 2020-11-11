@@ -19,11 +19,11 @@ export default class IframeWithUserNameDisplayWebPart extends BaseClientSideWebP
   public render(): void {
     let u = this.context.pageContext.user;
 
-    let src = escape(this.properties.url) + `&loginName=${u.loginName}&displayName=${u.displayName}`;
+    let src = escape(this.properties.url) + `&userId=${u.loginName}&userName=${u.displayName}`;
 
     this.domElement.innerHTML = `
       <div>
-        <iframe src="${ src }"></iframe>
+        <iframe width="100%" src="${ src }"></iframe>
       </div>`;
   }
 
